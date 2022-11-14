@@ -40,14 +40,6 @@ class AppComponent extends React.Component {
     this.setState({ expanded: expanded });
   };
 
-  pageTitle = {
-    'home': 'Home',
-    'devices': ['Devices'],
-    'reports': ['Reports'],
-    'settings/policies': ['Settings', 'Policies'],
-    'settings/network': ['Settings', 'Network']
-  };
-
   render(){
 
     const { expanded, selected } = this.state;
