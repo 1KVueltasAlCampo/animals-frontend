@@ -1,3 +1,13 @@
+# Non-profit application, it uses code from:
+
+https://github.com/trendmicro-frontend/react-sidenav
+
+# For everything to work you must run the respective npx commands in addition to the following commands:
+
+npm install --save styled-components
+npm install --save react @trendmicro/react-sidenav
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
