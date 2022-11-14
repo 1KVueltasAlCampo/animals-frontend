@@ -4,8 +4,8 @@ https://github.com/trendmicro-frontend/react-sidenav
 
 # For everything to work you must run the respective npx commands in addition to the following commands:
 
-npm install --save styled-components
-npm install --save react @trendmicro/react-sidenav
++ npm install --save styled-components
++ npm install --save react @trendmicro/react-sidenav
 
 
 # Getting Started with Create React App
