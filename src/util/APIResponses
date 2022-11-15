@@ -1,4 +1,4 @@
-// Thanks for the idea JuanFer
+export{getPrayer,postPrayer};
 
 async function postPrayer(url,obj){
     let res = await fetch(url,{
@@ -16,10 +16,10 @@ async function postPrayer(url,obj){
 }
 
 async function getPrayer(url){
-    let res = await fetch(url)
+    let res = await fetch(url,{
+        mode: 'no-cors'
+    })
     let response = await res.json()
     
     return response
 }
-
-export{getPrayer,postPrayer}
