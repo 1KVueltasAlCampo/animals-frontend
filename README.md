@@ -6,6 +6,11 @@ https://github.com/trendmicro-frontend/react-sidenav
 
 + npm install --save styled-components
 + npm install --save react @trendmicro/react-sidenav
++ npm install react-datepicker --save
+
+# Run this proyect at the same time you run:
+
+https://github.com/IcesiComputacionInternet2022-2/Taller1/tree/A00368421/Taller1
 
 
 # Getting Started with Create React App
